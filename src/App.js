@@ -24,6 +24,7 @@ function App() {
         nextResponse = "Are you sure? Won't you be my valentine?";
         break;
       case "Are you sure? Won't you be my valentine?":
+        setGifUrl("https://i.pinimg.com/originals/64/d0/9c/64d09cfbed528b8b8348b4e2cfbf012d.gif");
         nextResponse = "There is no other option :)";
         break;
       default:
