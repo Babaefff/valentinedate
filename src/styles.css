@@ -1,0 +1,77 @@
+.App {
+    text-align: center;
+    background-color: #f3e6f5; /* Lavender */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s ease; /* Fade-in animation when the page loads */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .App-header {
+    background-color: #e0bbdb; /* Light purple */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #524d66; /* Dark purple */
+    margin-bottom: 20px;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .gif {
+    width: 200px; /* Adjust size as needed */
+    margin-bottom: 20px;
+    transition: transform 0.5s ease; /* Smooth scale transition */
+  }
+  
+  .gif:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth background and color transition */
+  }
+  .yes-button {
+    background-color: #fae7f3; /* Light pink */
+    color: #524d66; /* Dark purple */
+  }
+  
+  .yes-button:hover {
+    background-color: #ff8eda; /* Lighter pink on hover */
+  }
+  
+  .no-button {
+    background-color: #524d66; /* Dark purple */
+    color: #fff; /* White */
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    background-color: #9e4ede; /* Darker background on hover */
+    color: #fff; /* White text on hover */
+  }
+  
+  .date {
+    color: #524d66; /* Dark purple */
+    font-size: 18px;
+    font-weight: bold;
+  }
